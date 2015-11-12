@@ -2,7 +2,6 @@
 
 ## showFocus
 set focus to input conditionally
-
 ```HTML
 <input type="text" class="searcher" name="searchTerm" ng-model="query" show-focus="vm.toggleView">
 ```
