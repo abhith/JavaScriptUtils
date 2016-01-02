@@ -26,3 +26,10 @@ dirPagination - AngularJS module for paginating (almost) anything.
 
 <dir-pagination-controls template-url="../templates/dirPagination.tpl.html"></dir-pagination-controls>
 ```
+
+## postRepeatDirective
+Time logging directive:
+To measure the time a list rendering takes, which logs the time by using the ng-repeat property “$last”.
+```HTML
+ <tr ng-repeat="item in items" post-repeat-directive>…</tr>
+```
