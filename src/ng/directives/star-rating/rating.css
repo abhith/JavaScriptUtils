@@ -1,0 +1,77 @@
+﻿.commonRating {
+    width: 100%;
+    float: left;
+}
+
+    .commonRating ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+        .commonRating ul li {
+            float: left;
+            width: 26px;
+            height: 26px;
+            border: #d9b3b3 solid 1px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            margin-right: 3px;
+            text-align: center;
+            display: block;
+            line-height: 26px;
+            padding: 0;
+        }
+
+            .commonRating ul li .fa {
+                color: #d9b3b3;
+                font-size: 18px;
+            }
+
+            .commonRating ul li.ActiveStars {
+                border: #f33736 solid 1px;
+            }
+
+                .commonRating ul li.ActiveStars .fa {
+                    color: #f33736;
+                }
+
+.writeReviewBox {
+    background: #f4f4f4;
+    border: #e7e7e7 solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #999;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+    .writeReviewBox:focus {
+        background: #fff;
+        color: #333;
+    }
+
+.ratingSmiley {
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+}
+
+    .ratingSmiley .smileys, .ratingSmiley .smileys img {
+        width: 30px;
+        height: 30px;
+        float: left;
+    }
+
+    .ratingSmiley .reviewText {
+        font-size: 14px;
+        color: #333;
+        float: left;
+        padding: 4px 0 0 8px;
+        margin: 0;
+    }
