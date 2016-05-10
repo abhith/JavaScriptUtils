@@ -13,16 +13,20 @@
     .filter('fromNow', function () {
         return function (date) {
             return moment(date).fromNow();
+            // relative time like 5 hours ago
         };
     })
     .filter('momentLLLL', function () {
         return function (date) {
             return moment(date).format('LLLL');
+            // Tuesday, May 10, 2016 5:20 PM
+
         };
     })
     .filter('momentllll', function () {
         return function (date) {
             return moment(date).format('llll');
+            // Tue, May 10, 2016 5:20 PM
         };
     })
     .filter('momentDate', function () {
