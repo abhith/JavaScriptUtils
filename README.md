@@ -5,5 +5,4 @@ A place where I will collect useful re-usable Javascript code snippets
 
 ### countryList (src/ng/factories/countries)
 
-##### getCountries
-get country list
+- **getCountries** - get country list
