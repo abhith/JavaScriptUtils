@@ -8,4 +8,4 @@ A place where I will collect useful re-usable Javascript code snippets
 
 ## Angular Directives (src/ng/directives)
 
-#### form-submitter (src/ng/directives/form-submitter)
+- **form-submitter** (src/ng/directives/form-submitter) - post data to an external url (payment gateway etc) using angular
