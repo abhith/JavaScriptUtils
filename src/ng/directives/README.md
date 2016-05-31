@@ -18,15 +18,6 @@ trigger specified function on enter key press
  <input type="text" class="searcher" ng-model="query" ng-enter="vm.redirect()">
 ```
 
-## dirPagination
-dirPagination - AngularJS module for paginating (almost) anything.
-* Copyright 2014 Michael Bromley <michael@michaelbromley.co.uk>
-```HTML
-<li dir-paginate="item in vm.searchResuls | itemsPerPage: 10">
-
-<dir-pagination-controls template-url="../templates/dirPagination.tpl.html"></dir-pagination-controls>
-```
-
 ## postRepeatDirective
 Time logging directive:
 To measure the time a list rendering takes, which logs the time by using the ng-repeat property “$last”.
